@@ -16,5 +16,11 @@ namespace TeachingRudis
         {
             InitializeComponent();
         }
+        int x = 0;
+        private void btn1_Click(object sender, EventArgs e)
+        {
+            x ++;
+            lbl1.Text = x .ToString();
+        }
     }
 }
