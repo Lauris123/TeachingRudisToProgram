@@ -21,6 +21,7 @@ namespace TeachingRudis
         {
             x ++;
             lbl1.Text = x .ToString();
+            //Laibais 
         }
     }
 }
